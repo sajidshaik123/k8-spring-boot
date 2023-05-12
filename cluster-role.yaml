@@ -36,7 +36,7 @@ metadata:
   name: kubernetes-java-client
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole 
+  kind: ClusterRole   
   name: kubernetes-java-client
 subjects:
 - kind: ServiceAccount
