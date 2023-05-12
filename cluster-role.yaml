@@ -23,7 +23,7 @@ rules:
   verbs:
   - get
   - list
-  - watch
+  - watch 
 - apiGroups: [""]
   resources: ["pods/exec"]
   verbs: ["create"]
